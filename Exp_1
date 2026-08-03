@@ -1,0 +1,14 @@
+
+m = 1/2
+for i in range(-10,10):
+    
+    for j in range(-10,10):
+        
+        if i == j :
+            print("•",end="")
+        # to rotate line m variable is used [[y =mx +c ]])
+        if m*i == j :
+            print("•",end="")    
+        else:
+            print(' ',end="")
+    print();
