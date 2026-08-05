@@ -1,0 +1,9 @@
+def filled_square():
+    for i in range(-10,10):
+        for j in range(-10,10):
+            if i != j or i == j :
+                print("[]",end="")
+            else:
+                print( " ",end="") 
+        print()
+filled_square()    
