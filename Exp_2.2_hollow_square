@@ -1,0 +1,14 @@
+def hollow_square(p,q):
+    for i in range(p+1,q):
+        for j in range(p+1,q):
+            if i in (p +1, q -1 ) or j in(p + 1,q - 1) :  # i 
+                 print("[]",end="")
+                 #print(f"({i},{j})",end="")
+            else:
+                print("  ",end="")   # kyu ki me [] use kar
+                                    # is liye double space ko use karna padega
+        print()  
+q = int(input("grid dimension:"))
+p = -q
+hollow_square(p,q) 
+              
